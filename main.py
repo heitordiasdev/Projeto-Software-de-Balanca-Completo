@@ -1,6 +1,7 @@
-from exportadores.filizola import FilizolaExporter
-from exportadores.toledo import ToledoExporter
-from exportadores.urano import UranoExporter
+from exportadores.filizola import filizolaLayout
+from exportadores.filizola.filizolaLayout import FilizolaExporter
+from exportadores.toledo.toledoLayout import ToledoExporter
+from exportadores.urano.uranoLayout import UranoExporter
 from produtos.produto import Product
 
 products = [
